@@ -16,7 +16,7 @@ export interface AgGridTableProps {
   width?: string | number;
   onRowClicked?: (event :any) => void;
   pagination?: boolean;
-  paginationPageSize?:number;
+  paginationPageSizeSelector?:boolean;
 }
 
 // Reusable AG Grid Table Component
