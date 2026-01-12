@@ -1,1 +1,1 @@
-export {AgGridTable} from './components/datagrid'
+export * from './components/datagrid'
